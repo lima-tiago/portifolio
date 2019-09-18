@@ -4,7 +4,7 @@
     background-position: 95% 60vh;
   }
   100% {
-    background-position: 95% 30vh
+    background-position: 95% 38vh
   }
 }
 @media only screen and (min-width: 992px) {
@@ -26,6 +26,10 @@
     width: 50%;
     margin: 20px 0;
   }
+  .card {
+    width: 30%;
+
+  }
 }
 body {
   overflow-x: hidden;
@@ -37,7 +41,7 @@ body {
   background-image: url('images/Tiago02.png') !important;
   background-repeat: no-repeat;
   background-size: 400px;
-  background-position: 95% 30vh;
+  background-position: 95% 38vh;
   animation: slide-up 4s ease-in-out;
   background-attachment: fixed;
 }
@@ -231,7 +235,27 @@ h2 {
   color: #fff;
   font-family: 'Chilanka', cursive;
   font-size: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.bg-2 {
+  padding-bottom: 20px;
 }
 .bg-2 ul li a {
   color: #999;
+}
+.row {
+  margin: 0;
+}
+.card {
+  margin: 20px;
+  box-shadow: #999 0px 0px 10px 3px;
+  transition: 0.5s ease-in-out;
+}
+.card:hover {
+  box-shadow: #999 0px 0px 50px 10px;
+  transition: 0.5s ease-in-out;
+}
+.card img {
+  height: 210px;
 }
