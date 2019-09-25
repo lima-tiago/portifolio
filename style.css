@@ -37,8 +37,12 @@
     width: 30%;
 
   }
+  .instaMolde, .linkedinMolde {
+    width: 70% !important;
+  }
 }
 body {
+  max-width: 100%;
   overflow-x: hidden;
   background-image: linear-gradient(to bottom right, #232526, #414345);
   background-attachment: fixed;
@@ -234,7 +238,7 @@ section {
   background-image: linear-gradient(to bottom right, #485563, #29323c);
 }
 h2 {
-  padding: 40px 0;
+  padding: 30px 0;
   font-size: 42px;
   font-family: 'Chilanka', cursive;
 }
@@ -257,7 +261,7 @@ h2 {
 .card {
   margin: 20px;
   box-shadow: #999 0px 0px 10px 3px;
-  transition: 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .card:hover {
   box-shadow: #999 0px 0px 50px 10px;
@@ -265,4 +269,50 @@ h2 {
 }
 .card img {
   height: 210px;
+}
+
+.instaMolde {
+  background: linear-gradient(#285AEB, #d6249f, #fd5949);
+  padding: 10px;
+  border-radius: 20px;
+  width: 90%;
+}
+.instaTable {
+  background: #fff;
+  border-radius: 15px;
+}
+#user img {
+  border-radius: 50%;
+  width: 40px;
+  margin: 10px;
+}
+#user a {
+  color: #292b2c;
+  font-family: 'Chilanka', cursive;
+  font-weight: bold;
+}
+#user a:hover {
+  text-decoration: none;
+}
+#post li {
+  list-style-type: none;
+}
+.postHover {
+  display: block;
+  overflow: hidden;
+  border-radius: 15px;
+}
+#post img {
+  width: 100%;
+  transition: 0.5s;
+}
+#post img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.linkedinMolde {
+  background: rgb(0, 133, 182);
+  border-radius: 20px;
+  padding: 10px;
 }
